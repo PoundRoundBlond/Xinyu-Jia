@@ -1,0 +1,102 @@
+body                               /*定义body样式*/
+{
+    /*border:#CCCC00 3px solid;*/
+    margin:0 auto;                 /*边框颜色，大小实线*/
+    margin-top:100px;              /*顶部边框大小*/
+    margin-bottom:100px;           /*底部边框大小*/
+    width:80%;
+    height:1300px;
+    padding:10px;
+    font-size: 19px;
+}
+.name
+{
+    margin-left: 42%;
+}
+.address
+{
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education {
+    display: flex;
+    width: 100%;
+}
+
+.bl {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.br {
+    flex:1;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.dot {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 15px;
+    height: 13px;
+    border-radius: 100%;
+    background: #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+.interest{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 0.4%;
+}
+
+
+
+
+
+table                     /*定义table样式*/
+{
+    border-style: none;
+    border-color: inherit;/*表格边框样式，颜色宽度*/
+    border-width: 5px;
+    width:100%;
+    height:10%;
+    padding:5px;          /*表格边距为5px*/
+    background-color: #95CA0D;
+}
+.h2                         /*定义h2样式*/
+{
+    color: #000000; background-color: #CCCC00;/*颜色黑色，背景颜色为橙黄*/
+
+}
+.style1                     /*class为style1的样式，字体大小为large，字体颜色为橙黄*/
+{
+    font-size: large;
+    color: #CCCC00;
+}
+
+
+.style3                    /*class为style3的样式，宽度为500px，高度为240px*/
+{
+    width: 500px;
+    height: 240px;
+}
+.style4                    /*class为style4的样式，宽度为1500px，高度为50px*/
+{
+    width: 1500px;
+    height: 50px;
+}
+.style5                    /*class为style5的样式，字体类型为黑体*/
+{
+    font-family: 黑体;
+}
+.style6                    /*class为style6的样式，宽度为250px，高度为10px，子团体类型为黑体*/
+{
+    width: 250px;
+    font-family: 黑体;
+    height: 10px;
+}
